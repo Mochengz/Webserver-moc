@@ -3,10 +3,12 @@
 #include "event_loop.h"
 #include "server.h"
 #include "logging.h"
+#include <algorithm>
 
 
 int main(int argc, char *argv[]) {
-  int thread_num = 4;
+  int hardware_threads = std::thread::hardware_concurrency();
+  int thread_num = std::max(1, hardware_threads * 2);
   int port = 8888;
   std::string log_path = "./WebServer.log";
 
