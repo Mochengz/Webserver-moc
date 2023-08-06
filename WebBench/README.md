@@ -26,6 +26,7 @@ ctags
 |-9     |--http09               |使用 HTTP/0.9                      |
 |-1     |--http10               |使用 HTTP/1.0 协议                 |
 |-2     |--http11               |使用 HTTP/1.1 协议                 |
+|-k     |	              	|使用 Keep-Alive长连接进行测试	|
 |       |--get                  |使用 GET请求方法                   |
 |       |--head                 |使用 HEAD请求方法                    |
 |       |--options              |使用 OPTIONS请求方法               |
