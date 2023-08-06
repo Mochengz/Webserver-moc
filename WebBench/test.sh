@@ -1,1 +1,1 @@
-./bin/webbench -t 60 -c 1000 -2 --get  http://127.0.0.1:8888/hello.txt
+./bin/webbench -t 10 -c 1000 -2 --get  http://127.0.0.1:8888/hello.txt
